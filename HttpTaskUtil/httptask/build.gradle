@@ -44,4 +44,5 @@ publish {
     artifactId = 'httptask'       //compile引用时的第2部分项目名
     publishVersion = '1.0.1'       //compile引用时的第3部分版本号
     desc = 'it is a library for android'
+    website = 'https://github.com/YanXiaosa5/httptask'
 }

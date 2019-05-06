@@ -1,8 +1,11 @@
 package com.xinbo.httptaskutil;
 
-import android.app.Application;
+import com.xinbo.httptask.TaskApplication;
 
-public class HttpApplication extends Application {
+public class HttpApplication extends TaskApplication {
 
-
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
 }
